@@ -91,7 +91,7 @@ export default function Master() {
   return (
     <div>
       <Head>
-        <title>Dayana's birthday</title>
+        <title>Dayana&apos;s birthday</title>
         <meta name="description" content="Website created for playing on Dayana's birthday" />
         <link rel="icon" href="/cat.png" />
       </Head>
