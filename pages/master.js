@@ -24,7 +24,7 @@ export default function Master() {
             return alert(error);
         }
         setCurrentQuestion(data[0]);
-        if (data[0]) {
+        if (!data[0]) {
             setWinner();
         }
     }
