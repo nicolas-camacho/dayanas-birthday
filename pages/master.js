@@ -24,8 +24,7 @@ export default function Master() {
             return alert(error);
         }
         setCurrentQuestion(data[0]);
-        if (typeof currentQuestion === 'undefined') {
-            console.log('finish')
+        if (data[0]) {
             setWinner();
         }
     }
